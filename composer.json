@@ -1,6 +1,6 @@
 {
     "name": "tauseedzaman/laravel-coming-soon",
-    "description": "Simple Comming Soon page",
+    "description": "Dynamic Comming Soon package for laravel",
     "keywords": ["coming-soon"],
     "type": "library",
     "license": "MIT",
@@ -14,8 +14,8 @@
         ]
     },
     "authors": [{
-        "name": "Soft 'n' Web",
-        "email": "info@softnweb.in"
+        "name": "tauseedzaman",
+        "email": "tauseedzaman@pm.me"
     }],
     "minimum-stability": "dev",
     "require": {},
