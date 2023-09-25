@@ -1,7 +1,7 @@
 {
     "name": "tauseedzaman/laravel-coming-soon",
     "description": "Dynamic Comming Soon package for laravel",
-    "keywords": ["coming-soon"],
+    "keywords": ["coming-soon", "Laravel Coming Soon", "Countdown Timer", "Under Construction Page", "Pre-launch Page", "Launch Countdown", "Maintenance Mode", "Countdown Plugin", "Laravel Package", "Website Launch", "Site Preview"],
     "type": "library",
     "license": "MIT",
     "scripts": {
