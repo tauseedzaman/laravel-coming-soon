@@ -1,4 +1,4 @@
-@extends('coming_soon.layouts.app')
+@extends('Coming_soon.layouts.app')
 @section('content')
     <section style="background-color: #eee;">
         <div class="container py-5">

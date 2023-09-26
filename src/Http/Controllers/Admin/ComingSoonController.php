@@ -3,7 +3,7 @@
 namespace tauseedzaman\ComingSoon\Http\Controllers\Admin;
 
 
-use tauseedzaman\ComingSoonHttp\Controllers\Controller;
+use App\Http\Controllers\Controller;
 use tauseedzaman\ComingSoon\Models\ComingSoon;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -12,14 +12,14 @@ class ComingSoonController extends Controller
 {
     public function index()
     {
-        return view("comingsoon::coming_soon_admin.index", [
+        return view("Comingsoon::coming_soon_admin.index", [
             'items' => ComingSoon::latest()->get()
         ]);
     }
 
     public function create()
     {
-        return view("comingsoon::coming_soon_admin.create");
+        return view("Comingsoon::coming_soon_admin.create");
     }
 
     public function store(Request $request)
@@ -61,7 +61,7 @@ class ComingSoonController extends Controller
     public function edit($id)
     {
         $item = ComingSoon::findOrFail($id);
-        return view("comingsoon::coming_soon_admin.edit", compact("item"));
+        return view("Comingsoon::coming_soon_admin.edit", compact("item"));
     }
 
     public function update(Request $request, $id)

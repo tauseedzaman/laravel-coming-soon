@@ -22,15 +22,15 @@ class ComingSoonServiceProvider extends ServiceProvider
         ]);
 
         $this->publishes([
-            __DIR__ . '/assets/js' => base_path('public/laravel_comming_soon/js'),
+            __DIR__ . '/assets/js' => base_path('public/laravel_coming_soon/js'),
         ]);
 
         $this->publishes([
-            __DIR__ . '/assets/admin' => base_path('public/laravel_comming_soon/admin'),
+            __DIR__ . '/assets/admin' => base_path('public/laravel_coming_soon/admin'),
         ]);
 
         $this->publishes([
-            __DIR__ . '/assets/css' => base_path('public/laravel_comming_soon/css'),
+            __DIR__ . '/assets/css' => base_path('public/laravel_coming_soon/css'),
         ]);
 
         $this->loadViewsFrom(__DIR__ . '/views', 'Comingsoon');

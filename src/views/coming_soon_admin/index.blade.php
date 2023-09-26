@@ -1,4 +1,4 @@
-@extends('coming_soon.layouts.app')
+@extends('Coming_soon.layouts.app')
 @section('content')
     <div class="px-3 body flex-grow-1">
         <div class="container-lg">
