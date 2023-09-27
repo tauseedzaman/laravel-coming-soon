@@ -55,7 +55,7 @@ class ComingSoonController extends Controller
             'description' => $request->descritions,
             'launch_time' => $request->launch_time,
         ]);
-        return redirect()->route("coming_soon_admin.index")->with("success", "Item Created Successfully.");
+        return redirect()->route("coming_soon.index")->with("success", "Item Created Successfully.");
     }
 
     public function edit($id)
@@ -105,7 +105,7 @@ class ComingSoonController extends Controller
             'launch_time' => $request->launch_time,
         ]);
 
-        return redirect()->route("coming_soon_admin.index")->with("success", "Item Updated Successfully.");
+        return redirect()->route("coming_soon.index")->with("success", "Item Updated Successfully.");
     }
 
 
@@ -113,6 +113,6 @@ class ComingSoonController extends Controller
     {
         $item = ComingSoon::findOrFail($id);
         $item->delete();
-        return redirect()->route("coming_soon_admin.index")->with("success", "Item Deleted Successfully.");
+        return redirect()->route("coming_soon.index")->with("success", "Item Deleted Successfully.");
     }
 }
