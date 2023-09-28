@@ -12,6 +12,7 @@ You can install the package via Composer. Run the following command in your term
 
 ```bash
 composer require tauseedzaman/laravel-coming-soon
+```
 
 ### Step 2: Publish Configuration
 
