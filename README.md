@@ -1,4 +1,3 @@
-```
 # Laravel Coming Soon Package
 
 The **Laravel Coming Soon** package provides a simple and customizable way to set up a "Coming Soon" page for your Laravel application. This page allows you to inform your visitors that your website is under construction and provide them with essential information about the launch date.
@@ -13,7 +12,6 @@ You can install the package via Composer. Run the following command in your term
 
 ```bash
 composer require tauseedzaman/laravel-coming-soon
-```
 
 ### Step 2: Publish Configuration
 
@@ -79,11 +77,7 @@ If you encounter any issues or have questions about using this package, please f
 
 ## Credits
 
-This package is created and maintained by [Your Name or Organization Name](https://github.com/your-github-profile).
+This package is created and maintained by [tauseedzaman](https://github.com/tauseedzaman).
 
 Thank you for using Laravel Coming Soon!
 ```
-
-Make sure to replace "Your Name or Organization Name" with your actual name or organization name in the README file.
-
-Remember to keep the README file up to date with any changes or updates to your package. Good documentation can greatly help users understand and use your Laravel package effectively.
