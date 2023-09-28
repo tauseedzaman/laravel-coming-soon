@@ -1,4 +1,4 @@
-@extends('Coming_soon.layouts.app')
+@extends('Comingsoon::coming_soon_admin.layouts.app')
 @section('content')
     <div class="px-3 body flex-grow-1">
         <div class="container-lg">
@@ -48,7 +48,7 @@
                                                     aria-expanded="false">
                                                     <svg class="icon">
                                                         <use
-                                                            xlink:href="{{ asset('admin/vendors/@coreui/icons/svg/free.svg#cil-options') }}">
+                                                            xlink:href="{{ asset('laravel_coming_soon/admin/vendors/@coreui/icons/svg/free.svg#cil-options') }}">
                                                         </use>
                                                     </svg>
                                                 </button>

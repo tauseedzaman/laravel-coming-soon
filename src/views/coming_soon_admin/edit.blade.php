@@ -1,4 +1,4 @@
-@extends('Coming_soon.layouts.app')
+@extends('Comingsoon::coming_soon_admin.layouts.app')
 @section('content')
     <section style="background-color: #eee;">
         <div class="container py-5">
@@ -10,16 +10,16 @@
                         </div>
                     @endif
 
-                    @if ($errors->any())
+                    {{-- @if ($errors->any())
                         @foreach ($errors->all() as $error)
                             <div class="alert alert-danger" role="alert">{!! $error !!}</div>
                         @endforeach
-                    @endif
+                    @endif --}}
 
                 </div>
                 <div class="mx-auto col-md-10">
                     <div class="mb-4 card">
-                        <form class="card-body" action="{{ route('coming_soon.update',$item->id) }}" method="post">
+                        <form class="card-body" action="{{ route('coming_soon.update', $item->id) }}" method="post">
                             @csrf
                             <h4 class="mb-4 text-center">Edit Coming Soon Page</h4>
                             <div class="mx-2 row">
